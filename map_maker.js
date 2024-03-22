@@ -428,13 +428,13 @@ const elements = [
 function getElementImage(type) {
     switch (type) {
         case 'water':
-            return "url('water_tile.png')";
+            return "url('img/water_tile.png')";
         case 'town':
-            return "url('village_tile.png')";
+            return "url('img/village_tile.png')";
         case 'forest':
-            return "url('forest_tile.png')";
+            return "url('img/forest_tile.png')";
         case 'farm':
-            return "url('plains_tile.png')";
+            return "url('img/plains_tile.png')";
         default:
             return 'none'; 
     }
