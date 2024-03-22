@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="map_maker.css">
+    <title>map_maker</title>
+</head>
+<body>
+    <!--11x11 board-->
+    <div id="game"></div>
+
+    <div class="container">
+        <div class="half">
+            <h2 id="title">The Map Maker</h2>
+            <div id="board" class="grid-item"></div>
+
+        </div>
+        <div class="half">
+       <br>
+
+            <h4 id="totalPoints"> </h4>
+            <h4 id="missionDescription">Current mission: </h4>
+            <hr>
+            <br>
+            <br>
+            
+            <div class="missions">
+                <div class="row">
+                    <div id="EndgeOfForest">
+                        <img src="Group 69.png" alt="Edge of Forest Image" class="forest-image">
+                        <div class="text">A</div>
+                    </div>
+                    <div id="SleepingValley">
+                        <img src="Group 74.png" alt="SleepingValleyy" class="sleepingValley-image">
+                        <div class="text">B</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="WateringPotatoes">
+                        <img src="Group 70.png" alt="Watering Potatoes" class="wateringPotatoes-image">
+                        <div class="text">C</div>
+                    </div>
+                    <div id="Borderlands">
+                        <img src="Group 78.png" alt="Borderlands" class="borderlands-image">
+                        <div class="text">D</div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <h4 id="timeRemaining">Ellapsed time in current season: 28</h4>
+            <h4 id="totalPoints"> </h4>
+            <hr>
+            <div class="elemContainer">
+                <div id="adjust">
+                    <h4>Current element:</h4>
+                    <button id="rotate">Rotate</button>
+                    <button id="flip">Flip</button>
+                </div>
+                <div id="currentElem">
+                    
+                   
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+  
+    <script src="map_maker.js"></script>
+</body>
+</html>
